@@ -16,7 +16,7 @@
   max-height: 756px;
   background-color: #f2f2f2;
   position: relative;
-  z-index: -1;
+  z-index: 1;
   /* выше установили ограничения для секции */
 }
 
