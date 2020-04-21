@@ -9,6 +9,7 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
+/* Секция header */
 .header {
   display: flex;
   height: 100vh;
@@ -20,7 +21,7 @@
   /* выше установили ограничения для секции */
 }
 
-.logo_place_header {
+.header__logo_place_header {
   position: absolute;
   width: 183px;
   height: 32px;
@@ -83,6 +84,7 @@
   background-color: #2f80ed;
 }
 
+/* Секция description */
 .description {
   margin-top: 100px;
 }
@@ -130,10 +132,11 @@
   font-weight: 700;
 }
 
+/* Секция digits */
 .digits {
   display: flex;
   flex-direction: column;
-  margin-top: 100px;
+  margin: 100px auto 100px;
 }
 .section-title {
   margin: 0 auto 20px;
@@ -180,6 +183,53 @@
   margin: 20px auto;
   line-height: 1.2;
   font-size: 18px;
+  font-weight: 400;
+}
+
+/* Секция feynman */
+.feynman {
+  padding-top: 100px;
+  margin-top: 0;
+  text-align: center;
+  position: relative;
+  height: 790px;
+  background-color: #f2f2f2;
+  z-index: 0;
+}
+
+.feynman__pic {
+  width: 867px;
+  height: 637px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.feynman__title {
+  margin: 0 auto;
+  width: 648px;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: 700;
+}
+
+.feynman__subtitle {
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: 400;
+  margin-top: 70px;
+  padding-top: 0;
+}
+
+.feynman__link {
+  position: absolute;
+  right: 48px;
+  top: 50%;
+  text-decoration: none;
+  color: #000;
+  line-height: 51px;
+  font-size: 36px;
   font-weight: 400;
 }
 
