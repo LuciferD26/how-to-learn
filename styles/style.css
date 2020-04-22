@@ -138,7 +138,7 @@
   flex-direction: column;
   margin: 100px auto 100px;
 }
-.section-title {
+.section__title {
   margin: 0 auto 20px;
   text-align: center;
   width: 60%;
@@ -147,7 +147,7 @@
   font-weight: 700;
 }
 
-.section-subtitle {
+.section__subtitle {
   text-align: center;
   margin: 0 auto;
   width: 60%;
@@ -233,10 +233,41 @@
   font-weight: 400;
 }
 
+/* Секция kaufman */
+.kaufman {
+  background-color: #1f1f1f;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  position: relative;
+  overflow: hidden;
+}
+
+.kaufman__triangle {
+  position: absolute;
+  width: 877px;
+  height: 877px;
+  right: -210px;
+  top: 0;
+  z-index: 0;
+}
+
+.section__title_theme_dark {
+  color: #fff;
+  width: 60%;
+  margin-bottom: 0;
+}
+
+.section__subtitle_theme_dark {
+  color: #fff;
+  width: 60%;
+  padding-top: 20px;
+}
+
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
-  color: white;
+  color: #fff;
   margin-right: 0;
   margin-top: 80px;
+  z-index: 1;
 }
