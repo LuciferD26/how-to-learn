@@ -5,4 +5,10 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: 400;
+  opacity: 1;
+}
+
+.footer__social-links:hover {
+  opacity: .6;
+  transition: .3s;
 }
