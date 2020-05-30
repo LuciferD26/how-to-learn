@@ -2,6 +2,7 @@
 @import url('../blocks/header/header.css');
 @import url('../blocks/logo/logo.css');
 @import url('../blocks/description/description.css');
+@import url('../blocks/digits/digits.css');
 
 .page {
   min-width: 1100px;
