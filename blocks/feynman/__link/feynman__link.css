@@ -7,4 +7,15 @@
   line-height: 51px;
   font-size: 36px;
   font-weight: 400;
+  opacity: 1;
+}
+
+.feynman__link:hover {
+  opacity: .5;
+  transition: .4s ease;
+}
+
+.feynman__link:not(:hover) {
+  opacity: 1;
+  transition: .4s ease;
 }

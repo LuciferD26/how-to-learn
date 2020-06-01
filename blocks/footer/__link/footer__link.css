@@ -8,6 +8,11 @@
 }
 
 .footer__link:hover {
-  opacity: .6;
-  transition: .3s;
+  opacity: .5;
+  transition: .4s;
+}
+
+.footer__link:not(:hover) {
+  opacity: 1;
+  transition: .4s ease;
 }

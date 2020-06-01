@@ -9,6 +9,11 @@
 }
 
 .footer__social-links:hover {
-  opacity: .6;
-  transition: .3s;
+  opacity: .5;
+  transition: .4s;
+}
+
+.footer__social-links:not(:hover) {
+  opacity: 1;
+  transition: .4s ease;
 }
