@@ -5,15 +5,9 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: 400;
-  opacity: 1;
+  transition: opacity 0.4s ease-in-out;
 }
 
 .footer__social-links:hover {
   opacity: .5;
-  transition: .4s;
-}
-
-.footer__social-links:not(:hover) {
-  opacity: 1;
-  transition: .4s ease;
 }

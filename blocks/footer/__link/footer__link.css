@@ -4,15 +4,9 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: 400;
-  opacity: 1;
+  transition: opacity 0.4s ease-in-out;
 }
 
 .footer__link:hover {
   opacity: .5;
-  transition: .4s;
-}
-
-.footer__link:not(:hover) {
-  opacity: 1;
-  transition: .4s ease;
 }
