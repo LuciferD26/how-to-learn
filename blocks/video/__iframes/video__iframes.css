@@ -1,5 +1,8 @@
 .video__iframes {
   padding-top: 50px;
-  display: flex;
+  display: grid;
+  grid-template-columns: 515px 515px;
+  grid-column-gap: 20px;
   justify-content: center;
+  margin: 0 auto;
 }

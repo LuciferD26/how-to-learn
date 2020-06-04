@@ -2,6 +2,7 @@
 @import url('./__iframe/video__iframe.css');
 
 .video {
-  margin: 100px auto 0;
-  /* position: relative; */
+  margin: 40px auto 0;
+  position: relative;
+  top: 60px;
 }
